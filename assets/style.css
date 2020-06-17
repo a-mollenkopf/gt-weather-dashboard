@@ -1,0 +1,83 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.navbar-text {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+#search-bar {
+  float: left;
+  height: 50px;
+  width: 250px;
+  margin-top: 30px;
+}
+
+#search-button {
+  height: 50px;
+  float: right;
+  margin-top: 30px;
+}
+
+#weather-box {
+  background-color: white;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  height: 262px;
+  width: auto;
+  border-style: solid;
+}
+body {
+  background-color: lightgrey;
+}
+
+.recent-searches {
+  background-color: white;
+  margin-top: 20 px;
+  padding-left: 30px;
+  padding-top: 10px;
+ 
+}
+.search-text {
+    
+}
+#five-day{
+    /* margin-left: 320px; */
+    background-color: lightblue;
+}
+.five-day-box {
+    background-color: lightblue;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+#boxOne{
+    margin-left: 150px;
+
+}
+
+/* #five-day-forecast{
+    background-color: lightblue;
+} */
+
+#five-day-two{
+
+}
+
+.question-block{
+    width: 32;
+
+}
+
+.forecast-info{
+    text-align: center;
+}
+
+#five-heading{
+
+}
