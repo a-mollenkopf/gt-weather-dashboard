@@ -24,10 +24,10 @@ h1 {
 
 #weather-box {
   background-color: white;
-  margin-top: 30px;
+  margin-top: 75px;
   margin-left: 50px;
   margin-bottom: 20px;
-  height: 230px;
+  height: 262px;
   width: auto;
   border-style: solid;
 }
@@ -70,9 +70,14 @@ body {
 }
 
 .question-block{
+    width: 32;
 
 }
 
 .forecast-info{
     text-align: center;
+}
+
+#five-heading{
+
 }
