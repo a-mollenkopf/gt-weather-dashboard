@@ -20,9 +20,9 @@ Any feedback can be provided via email at [kalebgarrison@gmail.com](mailto:kaleb
 3. Once on the browser you will then be able to search the weather conditions in different cities. 
 ## Usage 
 
-[Deployed Portfolio Site](https://kalebgarrison.github.io/gt-calendar-hw/)
+[Deployed Portfolio Site](https://kalebgarrison.github.io/gt-weather-dashboard/)
 
-[GitHub Repo Site](https://github.com/kalebgarrison/gt-calendar-hw)
+[GitHub Repo Site](https://github.com/kalebgarrison/gt-weather-dashboard)
 
 ![alt text](assets/images/weather-dashboard.png) 
 
