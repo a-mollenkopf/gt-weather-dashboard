@@ -27,7 +27,7 @@ $("#search-button").on("click", function (event) {
   }
   // weather api
   var queryUrl =
-    "http://api.openweathermap.org/data/2.5/weather?q=" +
+    "https://api.openweathermap.org/data/2.5/weather?q=" +
     cityName +
     "&appid=4c4e0d346a190f1bd944059aca6f817d";
 
@@ -39,7 +39,7 @@ $("#search-button").on("click", function (event) {
     var lat = response.coord.lat;
     var lon = response.coord.lon;
     var headerIcon = response.weather[0].icon;
-    var iconUrl = "http://openweathermap.org/img/w/" + headerIcon + ".png";
+    var iconUrl = "https://openweathermap.org/img/w/" + headerIcon + ".png";
 
     $("#icon-header").attr("src", iconUrl);
 
@@ -49,7 +49,7 @@ $("#search-button").on("click", function (event) {
     $("#humidity").text("Humidity: " + response.main.humidity + "%");
     $("#wind-speed").text("Wind Speed: " + response.wind.speed + "mph");
     var geoUrl =
-      "http://api.openweathermap.org/data/2.5/uvi?appid=" +
+      "https://api.openweathermap.org/data/2.5/uvi?appid=" +
       apiKey +
       "&lat=" +
       lat +
@@ -77,7 +77,7 @@ $("#search-button").on("click", function (event) {
 
     // This api retrieves the information for the 5 day forecast
     var forecastUrl =
-      "http://api.openweathermap.org/data/2.5/forecast?q=" +
+      "https://api.openweathermap.org/data/2.5/forecast?q=" +
       cityName +
       "&appid=" +
       apiKey;
@@ -95,7 +95,7 @@ $("#search-button").on("click", function (event) {
         var tempF = (fiveDayForecast.main.temp_max - 273.15) * 1.8 + 32;
         var forecastIcon = fiveDayForecast.weather[0].icon;
         var fiveUrl =
-          "http://openweathermap.org/img/w/" + forecastIcon + ".png";
+          "https://openweathermap.org/img/w/" + forecastIcon + ".png";
 
         var fiveBox = $("<div></div>");
         fiveBox.addClass("col-2 five-day-box");
