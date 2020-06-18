@@ -21,20 +21,23 @@ h1 {
   float: right;
   margin-top: 30px;
 }
-
+/* Main weather box */
 #weather-box {
   background-color: white;
   margin-top: 75px;
   margin-left: 50px;
   margin-bottom: 20px;
-  height: 262px;
+  height: 265px;
   width: auto;
+  padding-top: 10px;
   border-style: solid;
+  border-radius: 25px;
+  border: 2px solid rgb(57, 126, 255);
 }
 body {
   background-color: lightgrey;
 }
-
+/* Search history box */
 .recent-searches {
   background-color: white;
   margin-top: 20 px;
@@ -49,11 +52,16 @@ body {
     /* margin-left: 320px; */
     background-color: lightblue;
 }
+/* Five day forecast styling */
 .five-day-box {
-    background-color: lightblue;
+    background-color: rgb(57, 126, 255);
     margin-left: 10px;
     margin-top: 30px;
     padding-top: 10px;
+    border-style: solid;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
 }
 
 #boxOne{
@@ -61,13 +69,9 @@ body {
 
 }
 
-/* #five-day-forecast{
-    background-color: lightblue;
-} */
 
-#five-day-two{
 
-}
+
 
 .question-block{
     width: 32;
@@ -78,6 +82,21 @@ body {
     text-align: center;
 }
 
-#five-heading{
 
+/* UV index color indicators */
+.greenBtn{
+    background-color: green;
+}
+.yellowBtn{
+    background-color: yellow;
+}
+.orangeBtn {
+    background-color: orange;
+}
+
+.redBtn {
+    background-color: red;
+}
+.purpleBtn {
+    background-color: purple;
 }
